@@ -14,3 +14,9 @@ model1 <- lm(body_mass_g ~ flipper_length_mm, data = penguins)
 summary(model1) 
 
 # Make and save some plots into figs using ggplot
+library(ggplot2)
+ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g, colour = species)) +
+  geom_point() +
+  stat_smooth(method = "lm")
+
+# making edits to my script for git!
