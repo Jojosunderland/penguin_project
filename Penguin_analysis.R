@@ -20,3 +20,6 @@ ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g, colour = species)) 
   stat_smooth(method = "lm")
 
 # making edits to my script for git!
+# always commit, then PULL then PUSH onto GitHub
+# Pull brings in all the updated data from Git
+# Push sends your new work to Git
